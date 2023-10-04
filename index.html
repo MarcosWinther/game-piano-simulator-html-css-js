@@ -12,7 +12,48 @@
 </head>
 
 <body>
-   <div class="container"></div>
+   <div class="container">
+      <header>
+         <h2>Virtual Piano</h2>
+
+         <div class="column volume-slider">
+            <span>Volume</span>
+            <input type="range">
+         </div>
+
+         <div class="column keys-check">
+            <span>Teclas</span>
+            <input type="checkbox" checked>
+         </div>
+      </header>
+
+      <ul class="piano-keys">
+         <li class="key white"><span>q</span></li>
+         <li class="key black"><span>w</span></li>
+         <li class="key white"><span>e</span></li>
+         <li class="key black"><span>r</span></li>
+         <li class="key white"><span>t</span></li>
+         <li class="key white"><span>y</span></li>
+         <li class="key black"><span>1</span></li>
+         <li class="key white"><span>2</span></li>
+         <li class="key black"><span>3</span></li>
+         <li class="key white"><span>4</span></li>
+         <li class="key black"><span>a</span></li>
+         <li class="key white"><span>s</span></li>
+         <li class="key white"><span>d</span></li>
+         <li class="key black"><span>f</span></li>
+         <li class="key white"><span>g</span></li>
+         <li class="key black"><span>5</span></li>
+         <li class="key white"><span>6</span></li>
+         <li class="key white"><span>7</span></li>
+         <li class="key black"><span>8</span></li>
+         <li class="key white"><span>z</span></li>
+         <li class="key black"><span>x</span></li>
+         <li class="key white"><span>c</span></li>
+         <li class="key black"><span>m</span></li>
+         <li class="key white"><span>b</span></li>
+      </ul>
+   </div>
 
    <script src="src/scripts/engine.js" defer></script>
 </body>
