@@ -86,7 +86,7 @@ header .column span {
    width: 70px;
    height: 230px;
    border: 1px solid #000;
-   border-radius: 8px;
+   border-radius: 0 0 8px 8px;
    background: linear-gradient(#fff 96%, #eee 4%);
 }
 
