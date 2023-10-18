@@ -3,12 +3,12 @@ body {
    align-items: center;
    justify-content: center;
    min-height: 100vh;
-   background-color: #e3f2fd;
+   background: url('../imgs/background-note.png') 100% repeat;
    color: #fff;
 }
 
 .container {
-   width: 780px;
+   width: 800px;
    border-radius: 20px;
    padding: 35px 40px;
    background-color: #000;
@@ -109,11 +109,15 @@ header .column span {
 }
 
 .piano-keys .key.white.active {
-   box-shadow: inset -5px 5px 20px rgba(255, 255, 255, 0.1);
+   box-shadow: inset -5px 5px 20px rgba(166, 150, 255, 0.4);
    background: linear-gradient(to bottom #fff 0%, #eee 100%);
 }
 
 .piano-keys .key.black.active {
    box-shadow: inset -5px 5px 10px rgba(0, 0, 0, 0.2);
    background: linear-gradient(to bottom #000, #434343);
+}
+
+.piano-keys .key.hide span {
+   display: none;
 }
