@@ -14,15 +14,15 @@ O objetivo desse projeto é criar um jogo simulando um piano utilizando HTML, CS
   <img src="src/imgs/project-piano.PNG" alt="Imagem da tela do jogo">
 </div>
 
-- Venha jogar acessando [aqui nesse link do GithubPages]()
+- Venha jogar acessando [aqui nesse link do GithubPages](https://marcoswinther.github.io/game-piano-simulator-html-css-js/)
 
 ## ⚙ Execução do Jogo
 1. **Clonar Repósitório:** basta utilizar o comando `git clone` para clonar esse projeto e salvar na máquina e depois executar o arquivo `index.html`.
-2. **GitHubPages:** pode também acessar o projeto nesse [link](), que abrirá esse projeto no GitHubPages, sem precisar baixar o repositório na sua máquina.
+2. **GitHubPages:** pode também acessar o projeto nesse [link](https://marcoswinther.github.io/game-piano-simulator-html-css-js/), que abrirá esse projeto no GitHubPages, sem precisar baixar o repositório na sua máquina.
 
 ## 🕹 Como jogar
 - O objetivo é tocar no piano digitando os carecteres mostrados na teclas do piano ou clicando usando o mouse em cada tecla.
-- Ao ser clicado é reproduzido um som da nota musicak.
+- Ao ser clicado é reproduzido um som da nota musical.
 - Ainda você pode controlar o volume do piano ou esconder os carecteres mostrados no piano.
 
 ## 🤔 O que foi feito de diferente nesse jogo:
